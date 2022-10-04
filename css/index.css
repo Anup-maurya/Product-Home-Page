@@ -1,0 +1,184 @@
+:root{
+  --orange:#FE5E35;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+
+*{
+  font-family: "Roboto", sans-serif;
+}
+
+
+.action-btn{
+  padding: 10px 40px;
+  background: var(--orange);
+  border: none;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  border-radius: 10rem;
+}
+
+
+
+
+
+
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    
+}
+
+.nav-items h5{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left:30px ;
+    display: inline;
+}
+
+.nav-items h5:hover{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin-left:30px ;
+    display: inline;
+    color: rgb(255, 115, 0);
+}
+
+
+@media screen and (max-width: 800px) {
+    .nav-items {
+      display: none;
+    }
+    nav:first-child{
+        padding-left: 100px;
+    }
+  }
+
+  .intro-section{
+    display: flex;
+    gap: 90px;
+   
+  }
+ 
+  .left-section{
+    margin-left: 3%;
+    flex: 20%;
+  }
+  /*
+  .right-section{
+    flex: 1fr;
+  } */
+  .left-section>h3 {
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+  }
+
+  .left-section>h3 :first-child {
+    width: 30px;
+    padding: 0px 8px;
+    font-size: 300px;
+  }
+
+  .left-section>h1 {
+    font-size: 60px;
+    font-weight: 900;
+  }
+
+  
+  .sub-headline img{
+    background-color: rgb(255, 97, 24);
+    border-radius: 50%;
+    margin-left: 100px;
+  }
+
+
+  .sub-headline{
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    gap: 10px;
+    
+  }
+/* 
+  .text{
+    width: 30%;
+  } */
+
+
+
+
+
+
+  .discount{
+    position: absolute;
+    z-index: 1;
+    height: 120px;
+    margin-top: 232px;
+  }
+
+  .discount-content{
+    position: absolute;
+    z-index: 10;
+    margin-left: 30px;
+    margin-top: 249px;
+    font-size: 10px;
+    color: #fff;
+    align-self: flex-end;
+    
+  }
+
+  .discount-content h1{
+    margin-top: -8px;
+    font-size: 38px;
+    
+  }
+
+
+  .headphone{
+    height: 400px;
+  }
+
+  headphone-div{
+    position: relative;
+    display: flex;
+  }
+
+  .dot{
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    
+  }
+
+  .dots{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    margin: 30px 0px;
+  }
+
+  .tomato-dot{
+    background: #e63b1d;
+  }
+
+  .yellow-dot{
+    background: #fefb35;
+  }
+
+  .black-dot{
+    background: #000000;
+  }
+
+
+.right-section .action-btn{
+  display: flex;
+  justify-content: center;
+}
